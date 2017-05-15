@@ -97,7 +97,7 @@ while(True):
 
     print("You have " + str(player1.num_darts) + " darts left.\n")
 
-    print("To go to a room type command \"go to <adjacent room>\" \n To Shoot into a room type \"shoot into <adjacent room>\" \n")
+    print("To go to a room type command \"go to <adjacent room>\"\nTo Shoot into a room type \"shoot into <adjacent room>\" \n")
 
     # Get a command from the player, using the Player method .get_command(),
     #    which takes a Maze (so that it can figure out which rooms are
